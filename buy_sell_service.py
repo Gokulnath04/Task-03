@@ -9,7 +9,7 @@ def get_db_connection():
     return psycopg2.connect(
         dbname="trading_db",
         user="postgres",
-        password="12345",  # change this if needed
+        password="12345", 
         host="localhost",
         port="5432"
     )
